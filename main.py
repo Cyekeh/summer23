@@ -11,4 +11,8 @@ var = [x,y,z,a]
 
 for v in var:
     plt.plot(v, '-')
+
+plt.xlabel("Time")
+plt.ylabel("Scope Trace")
+plt.legend(['CH1', 'CH2', 'CH3', 'CH4'], loc="lower right")
 plt.show()
